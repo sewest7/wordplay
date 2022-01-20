@@ -14,10 +14,10 @@ $(document).ready(function() {
 
       const reverseArray = threeLetterWords.reverse();
       const finalArray = reverseArray.join(" ");
-      console.log(finalArray);
 
-      // $("button").click(function() {
-      // $("#threeLetterWords
+      $("#finalArray").text(finalArray);
+      $("#wordplayed").show();
+      
     });
   });
 
