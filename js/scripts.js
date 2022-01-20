@@ -13,8 +13,13 @@ $(document).ready(function() {
       });
 
       const reverseArray = threeLetterWords.reverse();
-      console.log(reverseArray);
-  // $("button").click(function() {
-  //   $("#threeLetterWords
+      const finalArray = reverseArray.join(" ");
+      console.log(finalArray);
+
+      // $("button").click(function() {
+      // $("#threeLetterWords
     });
   });
+
+
+  
