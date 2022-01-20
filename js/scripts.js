@@ -4,7 +4,17 @@ $(document).ready(function() {
 
     const inputSentence = $("textarea#user-sentence").val();
     const wordsArray = inputSentence.split(" ");
-    console.log(wordsArray);
+    const threeLetterWords = [];
+    
+    wordsArray.forEach(function(word) {
+      if (word.length >= 3) {
+      threeLetterWords.push(word);
+        }
+      });
 
+      const reverseArray = threeLetterWords.reverse();
+      console.log(reverseArray);
+  // $("button").click(function() {
+  //   $("#threeLetterWords
     });
   });
